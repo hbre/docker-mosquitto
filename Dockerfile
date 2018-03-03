@@ -1,6 +1,6 @@
-FROM debian:jessie
+FROM raspbian/jessie
 
-MAINTAINER Thomas Kerpe <toke@toke.de>
+MAINTAINER Henning Bredenkötter <hbre@users.noreply.github.com>
 
 # Build-time metadata as defined at http://label-schema.org
 ARG BUILD_DATE
